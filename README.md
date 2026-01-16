@@ -1,6 +1,3 @@
-# take_note
-takenotes
-######################
 from pyspark.sql.functions import col
 from pyspark import StorageLevel
 
@@ -57,4 +54,3 @@ for idx, (year, count) in enumerate(years):
     )
 
 df_filtered.unpersist()
-#########################3
